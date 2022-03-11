@@ -1,0 +1,375 @@
+{
+  "declaration": { "attributes": { "version": "1.0", "encoding": "UTF-8" } },
+  "elements": [
+    {
+      "type": "element",
+      "name": "ProcessCustomerPartyMaster",
+      "attributes": {
+        "xmlns": "http://schema.infor.com/InforOAGIS/2",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "releaseID": "9.2",
+        "versionID": "2.12.x",
+        "xsi:schemaLocation": "http://schema.infor.com/InforOAGIS/2 http://schema.infor.com/2.12.x/InforOAGIS/BODs/ProcessCustomerPartyMaster.xsd"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "ApplicationArea",
+          "elements": [
+            {
+              "type": "element",
+              "name": "Sender",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "LogicalID",
+                  "elements": [
+                    { "type": "text", "text": "lid://infor.ims.salesforceims" }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "ComponentID",
+                  "elements": [{ "type": "text", "text": "erp" }]
+                },
+                {
+                  "type": "element",
+                  "name": "ConfirmationCode",
+                  "elements": [{ "type": "text", "text": "OnError" }]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "CreationDateTime",
+              "elements": [{ "type": "text", "text": "3/3/2021, 6:08 AM" }]
+            },
+            {
+              "type": "element",
+              "name": "BODID",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "0014W00002F5D5ZQAV:ExternalIdNotPresent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "DataArea",
+          "elements": [
+            {
+              "type": "element",
+              "name": "Process",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "TenantID",
+                  "elements": [{ "type": "text", "text": "SXEADEQADEV_DEV" }]
+                },
+                {
+                  "type": "element",
+                  "name": "AccountingEntityID",
+                  "elements": [{ "type": "text", "text": "2000" }]
+                },
+                { "type": "element", "name": "LocationID" },
+                {
+                  "type": "element",
+                  "name": "ActionCriteria",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "ActionExpression",
+                      "attributes": { "actionCode": "Add" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "CustomerPartyMaster",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "PartyIDs",
+                  "elements": [{ "type": "element", "name": "ID" }]
+                },
+                {
+                  "type": "element",
+                  "name": "Name",
+                  "elements": [{ "type": "text", "text": "SFDCToCSDCust_smrn" }]
+                },
+                {
+                  "type": "element",
+                  "name": "CurrencyCode",
+                  "elements": [{ "type": "text", "text": "USD" }]
+                },
+                {
+                  "type": "element",
+                  "name": "Status",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Code",
+                      "elements": [{ "type": "text", "text": "Open" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "PaymentTermID",
+                  "elements": [{ "type": "text", "text": "n30" }]
+                },
+                {
+                  "type": "element",
+                  "name": "SalesPersonReference",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "IDs",
+                      "elements": [{ "type": "element", "name": "ID" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "Name",
+                      "attributes": { "languageID": "en-US" },
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "integration.sfdc.crm@csdsf.com"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "SalesPersonRole",
+                      "elements": [{ "type": "text", "text": "External" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "SalesPersonReference",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "IDs",
+                      "elements": [{ "type": "element", "name": "ID" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "Name",
+                      "attributes": { "languageID": "en-US" },
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "integration.sfdc.crm@csdsf.com"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "SalesPersonRole",
+                      "elements": [{ "type": "text", "text": "Internal" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "LastModificationDateTime",
+                  "elements": [{ "type": "text", "text": "3/3/2021, 6:08 AM" }]
+                },
+                {
+                  "type": "element",
+                  "name": "Location",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "Address",
+                      "attributes": { "type": "Text" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "AttentionOfName",
+                          "elements": [
+                            { "type": "text", "text": "SFDCToCSDCust_smrn" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "1" },
+                          "elements": [
+                            { "type": "text", "text": "50552 Road 632" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "2" }
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "3" }
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "4" }
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "5" }
+                        },
+                        {
+                          "type": "element",
+                          "name": "AddressLine",
+                          "attributes": { "sequence": "6" }
+                        },
+                        { "type": "element", "name": "CityName" },
+                        {
+                          "type": "element",
+                          "name": "CountrySubDivisionCode",
+                          "elements": [{ "type": "text", "text": "CA" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "CountryCode",
+                          "elements": [{ "type": "text", "text": "US" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "PostalCode",
+                          "elements": [{ "type": "text", "text": "93644" }]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "Address",
+                      "attributes": { "type": "Discrete" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "AttentionOfName",
+                          "elements": [
+                            { "type": "text", "text": "SFDCToCSDCust_smrn" }
+                          ]
+                        },
+                        { "type": "element", "name": "BuildingNumber" },
+                        { "type": "element", "name": "BuildingName" },
+                        { "type": "element", "name": "StreetName" },
+                        { "type": "element", "name": "Unit" },
+                        { "type": "element", "name": "Floor" },
+                        { "type": "element", "name": "PostOfficeBox" },
+                        {
+                          "type": "element",
+                          "name": "CityName",
+                          "elements": [{ "type": "text", "text": "Oakhurst" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "CountrySubDivisionCode",
+                          "elements": [{ "type": "text", "text": "CA" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "CountryCode",
+                          "elements": [{ "type": "text", "text": "US" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "PostalCode",
+                          "elements": [{ "type": "text", "text": "93644" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "Preference",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "Indicator",
+                              "elements": [{ "type": "text", "text": "true" }]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Communication",
+                  "attributes": {
+                    "preferredIndicator": "true",
+                    "sequence": "1"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "ChannelCode",
+                      "elements": [{ "type": "text", "text": "Phone" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "UseCode",
+                      "elements": [{ "type": "text", "text": "Office" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "DialNumber",
+                      "elements": [{ "type": "text", "text": "5122229690" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Communication",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "ChannelCode",
+                      "elements": [{ "type": "text", "text": "Web Site" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "UseCode",
+                      "elements": [{ "type": "text", "text": "Office" }]
+                    },
+                    { "type": "element", "name": "URI" }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "Communication",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "ChannelCode",
+                      "elements": [{ "type": "text", "text": "Phone" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "UseCode",
+                      "elements": [{ "type": "text", "text": "Fax" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "DialNumber",
+                      "elements": [{ "type": "text", "text": "1234" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
