@@ -10,9 +10,9 @@ const cors = require('cors')
 
 const app = express()
 const port = process.env.PORT || 3000
-
+const db="dbname"
 // connection url
-const uri = "mongodb+srv://admin:" + process.env.MONGO_ATLAS_PWD + "@cluster0.jjgyu.mongodb.net/InforShopify?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:" + process.env.MONGO_ATLAS_PWD + `@cluster0.jjgyu.mongodb.net/${db}?retryWrites=true&w=majority`;
 //  To connect to the mongoose using mongo db client.
 // //DB CONNECTION
 const connectionParams = {

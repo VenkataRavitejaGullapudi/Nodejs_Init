@@ -1,8 +1,8 @@
 {
   "env": {
-    "MONGO_ATLAS_PWD": "Infor2021",
-    "SHOPIFY_API_KEY": "2384cbfc0f43aa41015aab3300e2f893",
-    "SHOPIFY_API_SECRET_KEY": "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",
+    "MONGO_ATLAS_PWD": "##",
+    "API_KEY": "##",
+    "API_SECRET_KEY": "##",
     "HOST": "localhost",
     "PORT": "3001"
   }

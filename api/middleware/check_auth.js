@@ -43,8 +43,8 @@ module.exports = (req, res, next) => {
 }
 
 function validateCredens(username, password) {
-    validUser = tsscompare(username, process.env.SHOPIFY_API_KEY)
-    validPass = tsscompare(password, process.env.SHOPIFY_API_SECRET_KEY)
+    validUser = tsscompare(username, process.env.API_KEY)
+    validPass = tsscompare(password, process.env.API_SECRET_KEY)
     if (validUser && validPass) {
         return true
     }

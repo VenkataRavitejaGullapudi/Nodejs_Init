@@ -8,7 +8,7 @@ const app = express();
 
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 // client.connect(err => {
-//     const collection = client.db("InforShopify").collection("devices");
+//     const collection = client.db("DB_NAME").collection("devices");
 //     // perform actions on the collection object
 //     client.close();
 // });
